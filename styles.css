@@ -1,0 +1,40 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+background-color: #f4f4f4;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+#listaUsuarios {
+list-style-type: none;
+padding: 0;
+max-width: 800px;
+margin: 0 auto;
+}
+
+#listaUsuarios li {
+background-color: #fff;
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+display: flex;
+align-items: center;
+}
+
+#listaUsuarios li img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 15px;
+}
+
+#listaUsuarios li div {
+flex-grow: 1;
+}
+
